@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="task" label="Claims" max_length="40" name="x_snc_rw_claims_ma_claims" type="collection">
+        <element label="Customer" max_length="32" name="customer" reference="core_company" type="reference"/>
+        <element label="Part" max_length="32" name="part" reference="x_snc_rw_claims_ma_part" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Exception Handling" max_length="40" name="u_exception_handling" read_only="true" type="string">
+            <choice>
+                <element label="Proceed" sequence="0" value="Proceed"/>
+                <element label="Verify" sequence="1" value="Verify"/>
+                <element label="Deny" sequence="2" value="Deny"/>
+            </choice>
+        </element>
+        <element label="Exception Required" max_length="40" name="u_exception_required" read_only="true" type="boolean"/>
+    </element>
+</database>

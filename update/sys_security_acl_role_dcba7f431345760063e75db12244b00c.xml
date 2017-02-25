@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-02-25 01:02:32</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>dcba7f431345760063e75db12244b00c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_rw_claims_ma_claims.x_snc_rw_claims_ma.user</sys_name>
+        <sys_package display_value="RW_Claims_Management" source="x_snc_rw_claims_ma">5cb833031345760063e75db12244b037</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="RW_Claims_Management">5cb833031345760063e75db12244b037</sys_scope>
+        <sys_security_acl display_value="x_snc_rw_claims_ma_claims">10ba7f431345760063e75db12244b00a</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_dcba7f431345760063e75db12244b00c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-02-25 01:02:32</sys_updated_on>
+        <sys_user_role display_value="x_snc_rw_claims_ma.user" name="x_snc_rw_claims_ma.user">20b8bb031345760063e75db12244b011</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

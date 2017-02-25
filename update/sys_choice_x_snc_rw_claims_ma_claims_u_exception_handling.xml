@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_exception_handling" table="x_snc_rw_claims_ma_claims" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_exception_handling</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Proceed</label>
+            <language>en</language>
+            <name>x_snc_rw_claims_ma_claims</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-02-25 01:07:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>87dbbb831345760063e75db12244b075</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-02-25 01:07:38</sys_updated_on>
+            <value>Proceed</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_exception_handling</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Verify</label>
+            <language>en</language>
+            <name>x_snc_rw_claims_ma_claims</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-02-25 01:07:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c3dbbb831345760063e75db12244b077</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-02-25 01:07:38</sys_updated_on>
+            <value>Verify</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_exception_handling</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Deny</label>
+            <language>en</language>
+            <name>x_snc_rw_claims_ma_claims</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-02-25 01:07:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0fdbbb831345760063e75db12244b078</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-02-25 01:07:38</sys_updated_on>
+            <value>Deny</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_exception_handling</element>
+            <name>x_snc_rw_claims_ma_claims</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-02-25 01:07:38</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>8fdbbb831345760063e75db12244b076</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>u_exception_handling</sys_name>
+            <sys_package display_value="RW_Claims_Management" source="x_snc_rw_claims_ma">5cb833031345760063e75db12244b037</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="RW_Claims_Management">5cb833031345760063e75db12244b037</sys_scope>
+            <sys_update_name>sys_choice_x_snc_rw_claims_ma_claims_u_exception_handling</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-02-25 01:07:38</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Part" max_length="40" name="x_snc_rw_claims_ma_part" type="collection">
+        <element display="true" label="Part Number" max_length="40" name="part_number" type="string"/>
+        <element label="Serial Number" max_length="40" name="serial_number" type="string"/>
+        <element label="Warranty Expires" max_length="40" name="warranty_expires" type="glide_date"/>
+    </element>
+</database>
